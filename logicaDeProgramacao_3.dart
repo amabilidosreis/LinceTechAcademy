@@ -24,26 +24,6 @@ void main(){
       nvogais += (vogais[i]).allMatches(paragrafo, 0).length;
    }
 
-   // verificarconsoantes(String paragrafo){
-   //   var consoantesen = <String>[];
-   //
-   // for (final rune in paragrafo.trim().runes) {
-   //   final caractere = String.fromCharCode(rune).toLowerCase();
-   //   final ehConsoante = consoante.contains(caractere);
-   //   if (!ehConsoante) {
-   //     continue;
-   //   }
-   //
-   //   final jaEncontrada = consoantesen.contains(caractere);
-   //   if (!jaEncontrada) {
-   //     consoantesen.add(caractere);
-   //   }
-   //   final ordenado = (consoantesen.toList())
-   //     ..sort();
-   //   return ordenado.join(', ');
-   //   }
-   // }
-
     verificarconsoantes(String paragrafo){
       var consoantesen = <String>[];
 
